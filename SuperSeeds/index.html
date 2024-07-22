@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Menu</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!--header>section.menuWrap>i+nav>ul>li*4>a[#]-->
+    <header>
+        <section class="menuWrap">
+            <i class="fa-solid fa-seedling logo"></i>
+            <h1>Super seeds</h1>
+            <!--            hamburger menu-->
+            <input type="checkbox" id="checkbox">
+            <nav>
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Location</a></li>
+                    <li><a href="#">Our crops</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <!--            TIES MENU TO LIST ITEMS, INPUT CODE FOR FONTAWESOME-->
+            <label for="checkbox">
+                <i class="fa-solid fa-bars menuIcon"></i>
+                <i class="fa-solid fa-xmark menuIconClose"></i>
+            </label>
+        </section>
+    </header>
+
+    <main>
+        <!--        article*4>h2{Headline $}+p*2>lorem-->
+        <article>
+            <h2>Make the Move to Organic Seeds</h2>
+            <p>Soil Health: Organic farming practices improve soil fertility and structure, promoting long-term agricultural sustainability.</p>
+            <p>Biodiversity: Organic farming encourages biodiversity by using crop rotation and avoiding synthetic chemicals that harm beneficial insects and wildlife.</p>
+        </article>
+        <article>
+            <h2>Eco-Friendly Practices</h2>
+            <p>Reduced Carbon Footprint: Organic farming often uses less energy and reduces greenhouse gas emissions compared to conventional farming.</p>
+            <p>APreservation of Natural Resources: Organic farming methods help conserve resources like water and soil, ensuring they are available for future generations.
+            </p>
+        </article>
+        <article>
+            <h2>Supporting Local and Sustainable Agriculture</h2>
+            <p>Promoting Local Farmers: Buying organic seeds often supports local farmers who use sustainable practices, helping to boost the local economy</p>
+            <p>Encouraging Sustainable Practices: By choosing organic seeds, consumers support farming practices that are better for the environment and public health.</p>
+        </article>
+        <article>
+            <h2>Quality and Flavor</h2>
+            <p>Animal Welfare: Organic farming practices are generally more humane, ensuring better treatment of animals involved in the farming process.</p>
+            <p>Fair Labor Practices: Organic farming often supports fair labor practices and better working conditions for farm workers.</p>
+        </article>
+    </main>
+    <footer>
+        <div>
+            <p>Super seeds, all rights reserved</p>
+            <p>copyright &copy; 2024</p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
